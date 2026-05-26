@@ -1,10 +1,10 @@
 import React from 'react';
-import { Hero } from './components/Example/Example';
+import { Example } from './components/Example/Example';
 
 const App: React.FC = () => {
   return (
     <main>
-      <Hero />
+      <Example />
     </main>
   );
 };

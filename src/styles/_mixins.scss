@@ -38,6 +38,6 @@ $breakpoints: (
 
 @mixin glass {
   background: oklch(100% 0 0deg / 0.1);
-  backdrop-filter: blur(10px);
   border: 1px solid oklch(100% 0 0deg / 0.2);
+  backdrop-filter: blur(10px);
 }

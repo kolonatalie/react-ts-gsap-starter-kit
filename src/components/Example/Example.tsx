@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import styles from './Example.module.scss';
 
-export const Hero = () => {
+export const Example = () => {
   const container = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
