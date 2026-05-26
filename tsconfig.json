@@ -24,10 +24,9 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ]
     }
   },

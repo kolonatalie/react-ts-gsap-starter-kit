@@ -9,11 +9,11 @@
 Professional boilerplate for high-performance web animations and scalable frontend architecture featuring Vite, ESLint 9, and SASS Modules.
 
 ## Features
--  Powered by **Vite** for near-instant HMR (Hot Module Replacement).
+-  Powered by **Vite**.
 
 - Pre-configured with **GSAP** and **@gsap/react** for optimized animation lifecycles.
 
-- **SASS** Modules (7-1 pattern) with native **OKLCH** color space support.
+- **SASS** Modules.
 
 - Strict Quality Gates:
 
@@ -53,23 +53,21 @@ src/
 
 2.  **Install:**
     ```bash
-    npm install --legacy-peer-deps
+    npm install
     ```
-    ***Note:** `--legacy-peer-deps` is required for ESLint 9 compatibility with some plugins.*
 
-3. **Initialize & Run:**
+3. **Run:**
     ```bash
-    git init && npx husky install
     npm run dev
     ```
 
 ## Demo Component
-This starter kit includes a pre-built `Hero` component located in `src/components/Hero`. It serves as a live demonstration of:
+This starter kit includes a pre-built `Example` component located in `src/components/Example`. It serves as a live demonstration of:
 - **GSAP Reveal Animation:** Using `useGSAP` hook and scoped selectors.
 - **Fluid Typography:** Implementation of `clamp()` and OKLCH color system.
 - **SASS Modules:** Scoped styling with the 7-1 pattern.
 
-**To start with a blank slate:** Simply delete the `src/components/Hero` folder and clear the `App.tsx` file.
+**To start with a blank slate:** Simply delete the `src/components/Example` folder and clear the `App.tsx` file.
 
 ## Available Scripts
 |  |  |
@@ -82,4 +80,4 @@ This starter kit includes a pre-built `Hero` component located in `src/component
 
 ---
 
-*Created by [kolonatalie](https://github.com/kolonatalie) • Connect: [LinkedIn](https://www.linkedin.com/in/kolonatalie/) | [Portfolio](https://kolonatalie.github.io/portfolio/)*
+*Created by [kolonatalie](https://github.com/kolonatalie) • Connect: [LinkedIn](https://www.linkedin.com/in/kolonatalie/) | [Portfolio](https://kolonatalie.vercel.app)*

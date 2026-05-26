@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import styles from './Hero.module.scss';
+import styles from './Example.module.scss';
 
 export const Hero = () => {
   const container = useRef<HTMLDivElement>(null);

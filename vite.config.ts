@@ -12,7 +12,9 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@use "@/styles/_variables.scss" as *; @use "@/styles/_mixins.scss" as *;`,
+        additionalData: `
+        @use "@/styles/_variables.scss" as *; @use "@/styles/_mixins.scss" as *;
+        `,
       },
     },
   },
@@ -23,11 +25,13 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true,
+    minify: 'esbuild',
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom', 'gsap'],
+          vendor: ['react', 'react-dom'],
+          gsap: ['gsap', '@gsap/react'],
         },
       },
     },
